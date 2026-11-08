@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Julia → WebAssembly demos</title>
-<meta name="description" content="Live demos of Julia compiled to WebAssembly with WasmCodegen.jl.">
+<meta name="description" content="Julia compiled to WebAssembly with WasmCodegen.jl, running in your browser.">
 <style>
   :root {
     color-scheme: light dark;
@@ -60,14 +60,14 @@
 <body>
 <header>
   <h1>Julia → WebAssembly demos</h1>
-  <p class="lead">Live demos of Julia code compiled to WebAssembly with WasmCodegen.jl, running entirely in your browser.</p>
+  <p class="lead">Julia code compiled to WebAssembly with WasmCodegen.jl, running in your browser.</p>
 </header>
 <main>
   <!-- To add a demo: copy one <li> below, change the link, title, description and requirements. -->
   <ul class="demos" aria-label="Demos">
     <li class="demo">
       <h2><a href="tyler-map/">Tyler-like map</a></h2>
-      <p>An interactive slippy map with live OpenStreetMap tiles. Camera, tile selection, PNG decoding and Makie plots all run as Julia compiled to wasm.</p>
+      <p>A map with live OpenStreetMap tiles that you can drag and zoom. The camera, tile selection, PNG decoding and Makie plots are Julia compiled to wasm.</p>
       <p class="req"><strong>Requires:</strong> JSPI (Chrome 137 or newer, desktop recommended) and network access to tile.openstreetmap.org. About 2.3&nbsp;MB download.</p>
     </li>
   </ul>
